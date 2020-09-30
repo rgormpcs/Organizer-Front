@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="../login/login.component.css">
+<div class="login">
+<small *ngIf='invalidLogin'>{{errorMessage}}</small>
+<br>
+User name: <input type="text" name="username" [(ngModel)]="username">
+Password: <input type="password" name="password" [(ngModel)]="password">
+
+<button (click)=login()>Login</button>
+</div>

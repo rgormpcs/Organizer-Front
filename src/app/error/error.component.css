@@ -1,0 +1,40 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+div{
+    border: black 2px;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description{
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.login_button{
+    margin-top: 20px;
+    height: 50px;
+    background-color:rgba(51, 209, 46, 0.7);
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+}
+h1 {
+    font-size:100px;
+    color: rgba(51, 209, 46, 0.7);;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+  }
+  
+  @keyframes example {
+    from {color: rgba(51, 209, 46, 0.7);}
+    to {color: red;}
+    
+  }

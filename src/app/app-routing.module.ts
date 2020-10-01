@@ -6,7 +6,7 @@ import { ErrorComponent } from './error/error.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 
 const routes: Routes = [
- {path:' ', component:WelcomeComponent},
+  {path: '', component:LoginComponent},
   {path: 'welcome/:user', component:WelcomeComponent},
   {path:'login',component:LoginComponent},
   {path:'todos',component:TodoListComponent},

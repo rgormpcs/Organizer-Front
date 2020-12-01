@@ -12,6 +12,8 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoutComponent } from './logout/logout.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -29,7 +31,8 @@ import { LogoutComponent } from './logout/logout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
